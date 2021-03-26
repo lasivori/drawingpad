@@ -16,6 +16,7 @@ Initially, drawing presented no other issues once I fixed that, but when resizin
 
 ---
 ## TO-DO
+Feature |
 ---------|
 Drawing Alignment |
 Eraser |
