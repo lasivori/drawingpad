@@ -16,9 +16,9 @@ Initially, drawing presented no other issues once I fixed that, but when resizin
 
 ---
 ## TO-DO
-Feature |
----------|
-Drawing Alignment |
-Eraser |
-Animation |
-
+Feature | Description |
+---------|--------|
+Drawing Alignment | Make sure that after canvas is resized, the drawing lines up with where the mouse is |
+Eraser | Allow for user to erase parts of their drawing without having to clear the entire canvas |
+Extra Pages | Be able to go to new pages (and back to old ones) so that you can save multiple drawings |
+Animation | An animation to see the cover of the pad open, as well as flipping through pages when those get added |
