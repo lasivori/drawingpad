@@ -18,8 +18,9 @@ function initCanvas(){
 	  isDrawing = true;
 	  [lastX, lastY] = [event.offsetX, event.offsetY];
 	});
-	canvas.addEventListener("mouseup", () => {
-		isDrawing = false
+	canvas.addEventListener("mouseup", (e) => {
+		console.log(e.offsetX, e.offsetY);
+		isDrawing = false;
 	});
 	canvas.addEventListener("mouseout", () => isDrawing = false);
 
