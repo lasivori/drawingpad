@@ -19,7 +19,7 @@ function initCanvas(){
 	  [lastX, lastY] = [event.offsetX, event.offsetY];
 	});
 	canvas.addEventListener("mouseup", (e) => {
-		console.log(e.offsetX, e.offsetY);
+		console.log("offset coordinates", e.offsetX, e.offsetY, "client coordinates", e.clientX, e.clientY);
 		isDrawing = false;
 	});
 	canvas.addEventListener("mouseout", () => isDrawing = false);
